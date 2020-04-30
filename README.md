@@ -56,3 +56,15 @@ int partition(arr, lIndex, rIndex)
     return i;
 }
 ```
+
+Breadth First Search:
+- Super easy search strategy for graphs.
+- Loops through it's frontier looking for the node it's after.
+- Every node searched has it's children added to the frontier.
+- Frontier structure for this is Queue
+
+Depth First Search:
+- Super easy search strategy for graphs.
+- Loops through it's frontier looking for the node it's after.
+- Every node searched has it's children added to the frontier.
+- Frontier structure for this is Stack

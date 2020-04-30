@@ -1,10 +1,11 @@
-﻿using System;
+﻿using InterviewPrepRepo.Search;
+using System;
 
 namespace InterviewPrepRepo
 {
     public class Program
     {
-        //TODO(Tom): BFS, DFS, A*
+        //TODO(Tom): A*, Binary Search
         public static void Main(string[] args)
         {
             // O(n^2)
@@ -20,7 +21,13 @@ namespace InterviewPrepRepo
             //MergeSort.RunMergeSort();
 
             // O(n log n)
-            QuickSort.RunQuickSort();
+            //QuickSort.RunQuickSort();
+
+            //BFS
+            //BFS.RunBFS();
+
+            //DFS
+            DFS.RunDFS();
         }
     }
 }
