@@ -22,7 +22,7 @@ Merge Sort:
 - O(nlogn)
 
 Quick Sort: 
-- Pick partition and move all greater vals to the left. Do again on subarray to the left and right.
+- Pick partition and move all lower vals to the left. Do again on subarray to the left and right.
 - Tricky for me to remember.
 - O(nlogn)
 ```
